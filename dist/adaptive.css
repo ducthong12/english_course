@@ -1,0 +1,84 @@
+#adaptive {
+  background: #fff;
+  border: 1px solid #dce6d7;
+  border-radius: 18px;
+  padding: 19px;
+  margin-bottom: 16px;
+  min-width: 0;
+}
+#adaptive h2 {
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  margin: 0;
+}
+.adaptiveHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.adaptiveHead > span {
+  font-size: 11px;
+  color: #3e6246;
+  background: #ecf3e7;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+#adaptive p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #51675a;
+  margin: 8px 0;
+}
+.adaptiveLinks {
+  display: grid;
+  gap: 6px;
+}
+.adaptiveLinks button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #d8e5d3;
+  background: #f7faf3;
+  border-radius: 10px;
+  padding: 9px 11px;
+}
+.adaptiveLinks small,
+.adaptiveLinks strong {
+  display: block;
+}
+.adaptiveLinks small {
+  font-size: 11px;
+}
+.adaptiveLinks strong {
+  font-size: 14px;
+  margin-top: 2px;
+}
+.adaptiveLinks strong span {
+  color: #638963;
+}
+#adaptive details {
+  font-size: 12px;
+  margin-top: 12px;
+}
+#adaptive ul {
+  padding-left: 17px;
+  margin: 8px 0;
+}
+#adaptive li {
+  margin: 5px 0;
+}
+#adaptiveNotice:empty {
+  display: none;
+}
+#adaptiveNotice {
+  font-size: 13px;
+  padding: 8px 0;
+}
+#adaptiveNotice button {
+  font-size: 12px;
+  border: 0;
+  background: #f3ead3;
+  border-radius: 4px;
+  padding: 5px;
+}

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f7f8f2" />
+    <title>Lingo Studio · Góc học tập</title>
+    <link rel="icon" type="image/webp" href="art/books.webp" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="course.js"></script>
+    <link rel="stylesheet" href="account.css" />
+    <script defer src="data-init.js"></script>
+    <script defer src="grammar-basic.js"></script>
+    <script defer src="grammar-intermediate.js"></script>
+    <script defer src="grammar-applied.js"></script>
+    <script defer src="grammar-book.js"></script>
+    <script defer src="units-basic.js"></script>
+    <script defer src="units-advanced.js"></script>
+    <script defer src="units-applied.js"></script>
+    <script defer src="dialogues-basic.js"></script>
+    <script defer src="dialogues-advanced.js"></script>
+    <script defer src="dialogues-applied.js"></script>
+    <script defer src="pictures.js"></script>
+    <script defer src="lexicon.js"></script>
+    <script defer src="word-packs.js"></script>
+    <script defer src="dialogue-times.js"></script>
+    <script defer src="writing-book.js"></script>
+    <script defer src="reading-data.js"></script>
+    <script defer src="catalog.js"></script>
+    <script defer src="speaking.js"></script>
+    <script defer src="study.js"></script>
+    <script defer src="word-library.js"></script>
+    <script defer src="notebook.js"></script>
+    <script defer src="practice-games.js"></script>
+
+    <script defer src="reading-times.js"></script>
+    <script defer src="reading.js"></script>
+    <script defer src="accounts.js"></script>
+    <script defer src="app.js"></script>
+    <script defer src="adaptive.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="bar">
+        <a class="brand" href="#home" aria-label="Lingo Studio"
+          ><span class="mark">◖◗</span>Lingo<span>Studio</span></a
+        >
+        <nav aria-label="Điều hướng">
+          <a href="#home" data-nav="home">Góc học tập</a
+          ><a href="#library" data-nav="library">Thư viện</a
+          ><a href="#tutor" data-nav="tutor">Gia sư AI</a>
+        </nav>
+        <span class="avatar" aria-label="Hồ sơ người học">L</span>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div>
+          <h1>Góc học tập<span>.</span></h1>
+          <p>Chọn một bài học và luyện tiếng Anh theo nhịp của bạn.</p>
+        </div>
+        <label class="picker"
+          >Lộ trình
+          <select id="level" aria-label="Chọn lộ trình">
+            <option>A1</option>
+            <option>A2</option>
+            <option>B1</option>
+            <option>B2</option>
+            <option>IELTS</option>
+          </select></label
+        >
+      </section>
+      <div class="layout">
+        <div>
+          <section class="feature">
+            <div class="heroCopy">
+              <div class="eyebrow">
+                <i data-icon="sound"></i> BÀI NGHE NỔI BẬT
+              </div>
+              <h2 id="heroTitle">A morning coffee</h2>
+              <p id="heroDesc"></p>
+              <button data-open="listen" class="primary">
+                <i data-icon="play"></i> Bắt đầu học
+              </button>
+            </div>
+            <img
+              class="heroArt"
+              src="art/cafe.webp"
+              alt="Góc quán cà phê với mái hiên xanh"
+            />
+          </section>
+          <section id="practice">
+            <div class="sectionHead"><h2>Luyện theo kỹ năng</h2></div>
+            <div id="tiles"></div>
+          </section>
+        </div>
+        <aside>
+          <section id="adaptive"></section>
+          <section class="panel">
+            <div class="panelTitle">
+              <span class="iconBox" data-icon="chart"></span>
+              <h2>Tiến độ của bạn</h2>
+            </div>
+            <div class="progressBody">
+              <div class="ring" id="ring">
+                <strong id="percentage">0%</strong>
+              </div>
+              <div>
+                <b id="progressCount"></b><small>Bài học đã hoàn thành</small>
+              </div>
+            </div>
+            <div class="trackList" id="tracks"></div>
+          </section>
+          <section class="tutorCard">
+            <div class="tutorTop">
+              <span class="bot" aria-hidden="true">✳</span
+              ><span class="eyebrow">AI SPEAKING</span>
+            </div>
+            <h2>Trò chuyện cùng AI</h2>
+            <p>Luyện phản xạ qua hội thoại theo trình độ của bạn.</p>
+            <button data-open="tutor" class="light">
+              Vào phòng nói <i data-icon="arrow"></i>
+            </button>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <dialog id="modal">
+      <div class="modalHead">
+        <span class="eyebrow" id="modalLabel"></span
+        ><button class="close" aria-label="Đóng">×</button>
+      </div>
+      <h2 id="modalTitle"></h2>
+      <div id="content"></div>
+    </dialog>
+  </body>
+</html>

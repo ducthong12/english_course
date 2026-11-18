@@ -1,0 +1,153 @@
+.avatar.guestAvatar {
+  width: auto;
+  padding: 7px 13px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+#accountDialog {
+  width: min(430px, 94vw);
+}
+#accountDialog.adminDialog {
+  width: min(640px, 94vw);
+}
+.accountBar,
+.adminTools,
+.student summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.accountBar h2 {
+  margin: 0;
+}
+.accountBar {
+  margin-bottom: 17px;
+}
+.accountX {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  background: #edf2e8;
+  border: 0;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.accountHint,
+.accountIdentity span,
+.student summary small,
+.adminTools > span {
+  color: #586b60;
+}
+#accountForm,
+.accountIdentity,
+#accountDialog label {
+  display: grid;
+  gap: 7px;
+}
+#accountForm {
+  gap: 15px;
+  margin: 18px 0 9px;
+}
+#accountDialog label {
+  font-size: 14px;
+  font-weight: 600;
+}
+#accountDialog input {
+  border: 1px solid #abbdaa;
+  background: white;
+  border-radius: 8px;
+  padding: 11px;
+  width: 100%;
+  min-width: 0;
+  color: #163b2e;
+}
+#accountDialog input:focus-visible {
+  outline: 3px solid #b87933;
+  outline-offset: 2px;
+}
+.accountLink {
+  border: 0;
+  background: transparent;
+  padding: 10px 0;
+  color: #276043;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.accountStatus {
+  color: #8c3a2a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.accountStatus:empty {
+  display: none;
+}
+.accountIdentity {
+  padding: 14px 0 22px;
+  overflow-wrap: anywhere;
+}
+.accountIdentity strong {
+  font-size: 20px;
+}
+#accountLogout {
+  margin: 3px;
+}
+.adminTools {
+  margin: 12px 0 16px;
+  align-items: flex-end;
+}
+.adminTools label {
+  flex: 1;
+}
+.adminTools > span {
+  font-size: 13px;
+  padding: 10px 0;
+}
+.student {
+  padding: 0;
+}
+.student summary {
+  padding: 12px 4px;
+  list-style: none;
+  min-height: 54px;
+  cursor: pointer;
+}
+.student summary::after {
+  content: "⌄";
+  font-weight: 700;
+}
+.student[open] summary::after {
+  content: "⌃";
+}
+.student summary span {
+  flex: 1;
+  min-width: 0;
+}
+.student summary strong,
+.student summary small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.student summary small {
+  font-size: 13px;
+}
+.student summary b {
+  font-size: 12px;
+  color: #285740;
+  background: #e4eed9;
+  border-radius: 20px;
+  padding: 5px 9px;
+  white-space: nowrap;
+}
+.student ul {
+  margin: 0 0 15px;
+  padding-left: 21px;
+}
+.student li,
+.student p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.student p {
+  margin-bottom: 14px;
+}
