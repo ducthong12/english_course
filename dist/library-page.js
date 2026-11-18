@@ -23,7 +23,7 @@ function showLibraryPage() {
       id: "reading",
       title: "Đọc và nghe",
       detail: readings.length + " bài song ngữ · bấm từ để tra và lưu",
-      image: level === "A1" ? "cafe" : level,
+      image: "Kids6",
       open: openReadings,
     },
     {
@@ -46,7 +46,7 @@ function showLibraryPage() {
       id: "queue",
       title: "Nghe liên tục",
       detail: "Phát hội thoại, theo dõi lượt nói và tự chuyển bài",
-      image: level === "A1" ? "cafe" : level,
+      image: "A2",
       open: openListeningQueue,
     },
   ];

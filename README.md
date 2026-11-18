@@ -103,3 +103,6 @@ Nguồn khảo sát
 - [Trò chơi](https://parroto.app/blog/vi/3-game-moi-tren-parroto-hoc-tu-vung-chua-bao-gio-thu-vi-en-the)
 
 Sổ tay, lịch ôn và bài yêu thích dùng API tiến độ hiện có, lưu riêng từng tài khoản trong SQLite/D1. Dữ liệu học viên và mô hình AI được lưu trong thư mục dữ liệu người dùng. Git chỉ theo dõi source và học liệu tĩnh.
+
+
+Trang thư viện có đường dẫn #library, giao diện riêng theo desktop/mobile, tìm đồng thời từ vựng và bài của lộ trình đang chọn. Đóng bài học sẽ trở về thư viện. Bộ source được quản lý tại https://github.com/ducthong12/english_course.
