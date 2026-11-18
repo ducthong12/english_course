@@ -1055,3 +1055,197 @@ audio {
 .lexRow .subtle {
   flex: none;
 }
+
+.libraryIntro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 38px 0 26px;
+}
+.libraryIntro p {
+  color: #5f7467;
+  line-height: 1.6;
+}
+.libraryTools {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.libraryTools input {
+  padding: 14px 17px;
+  background: #fff;
+  font-weight: 400;
+}
+.libraryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.libraryCard {
+  overflow: hidden;
+  border: 1px solid #d8e2d1;
+  border-radius: 18px;
+  background: white;
+  text-align: left;
+  padding: 0;
+  transition: transform 0.15s;
+}
+.libraryCard:hover {
+  transform: translateY(-3px);
+}
+.libraryArt {
+  height: 154px;
+  display: grid;
+  place-items: center;
+  background: #e4ecd9;
+}
+.libraryArt img {
+  height: 130px;
+  width: 90%;
+  object-fit: contain;
+}
+.libraryCard > div:last-child {
+  position: relative;
+  padding: 20px 37px 22px 20px;
+}
+.libraryCard h2 {
+  font-size: 21px;
+  letter-spacing: -0.6px;
+  margin-bottom: 7px;
+}
+.libraryCard p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #5c7362;
+}
+.libraryCard span {
+  position: absolute;
+  right: 17px;
+  top: 22px;
+}
+.tone1 {
+  background: #e2eaf2;
+}
+.tone2 {
+  background: #fae2b6;
+}
+.tone2 img,
+.tone5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tone3 {
+  background: #eae3f3;
+}
+.tone4 {
+  background: #f8e8d8;
+}
+.tone5 {
+  background: #e3eddf;
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+#libraryResults {
+  margin-bottom: 40px;
+}
+@media (max-width: 900px) {
+  .libraryGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .libraryIntro {
+    padding: 27px 0 19px;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .libraryIntro h1 {
+    font-size: 33px;
+    letter-spacing: -1.6px;
+  }
+  .libraryIntro p {
+    font-size: 13px;
+  }
+  .libraryIntro .picker {
+    min-width: 88px;
+  }
+  .libraryIntro .picker select {
+    max-width: 110px;
+  }
+  .libraryGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .libraryCard {
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr);
+  }
+  .libraryArt {
+    height: 100%;
+    min-height: 116px;
+  }
+  .libraryArt img {
+    height: 90px;
+    width: 95%;
+  }
+  .tone2 img,
+  .tone5 img {
+    height: 100%;
+    width: 100%;
+  }
+  .libraryCard > div:last-child {
+    padding: 18px 29px 18px 16px;
+  }
+  .libraryCard h2 {
+    font-size: 19px;
+  }
+  .libraryCard p {
+    font-size: 13px;
+  }
+  .libraryTools .toolsRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .libraryTools .toolsRow button:last-child {
+    grid-column: 1/-1;
+  }
+}
+.libraryArt {
+  overflow: hidden;
+}
+.libraryArt img {
+  min-width: 0;
+  min-height: 0;
+  max-height: 100%;
+  display: block;
+}
+.libraryIntro > div {
+  min-width: 0;
+  flex: 1;
+}
+@media (max-width: 520px) {
+  .libraryIntro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 95px;
+  }
+  .libraryIntro .picker {
+    min-width: 0;
+    display: grid;
+    gap: 5px;
+  }
+  .libraryIntro .picker select {
+    width: 95px;
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 4px;
+  }
+}

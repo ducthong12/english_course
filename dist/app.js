@@ -486,7 +486,12 @@ function route() {
   document
     .querySelectorAll("nav a")
     .forEach((a) => a.classList.toggle("active", a.dataset.nav === route));
-  if (["tutor", "library"].includes(route)) view(route);
+  $("#dashboardPage").hidden = route === "library";
+  $("#libraryPage").hidden = route !== "library";
+  if (route === "library") {
+    if (modal.open) modal.close();
+    showLibraryPage();
+  } else if (route === "tutor") view(route);
   else if (modal.open) modal.close();
 }
 document.addEventListener("click", (e) => {
@@ -511,7 +516,7 @@ modal.onclose = () => {
   window.speechSynthesis?.cancel();
   content.innerHTML = "";
   current = "";
-  if (["#library", "#tutor"].includes(location.hash)) {
+  if (location.hash === "#tutor") {
     history.replaceState(null, "", "#home");
     route();
   }

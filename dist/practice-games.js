@@ -3,7 +3,7 @@ const gameSentences = () => {
     .flat()
     .map((row) => row[4]);
   return shuffled([...new Set(all)])
-    .filter((s) => s.split(/s+/).length >= 4 && s.split(/s+/).length <= 14)
+    .filter((s) => s.split(/ +/).length >= 4 && s.split(/ +/).length <= 14)
     .slice(0, 8);
 };
 function openPracticeGames() {
@@ -99,7 +99,7 @@ function sentenceGame() {
       return;
     }
     const target = deck[index],
-      tokens = target.split(/s+/),
+      tokens = target.split(/ +/),
       pieces = shuffled(tokens.map((word, id) => ({ word, id })));
     let selected = [],
       checked = false;
