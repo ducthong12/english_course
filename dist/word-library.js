@@ -30,7 +30,7 @@ function openLexicon(packId = "") {
     words.length.toLocaleString("vi-VN") +
     ' từ</span></div><div class="toolsRow"><label class="field">Trình độ<select id="lexBand"><option value="">Tất cả</option>' +
     ["A1", "A2", "B1", "B2"].map((b) => "<option>" + b + "</option>").join("") +
-    '</select></label><label class="field">Tìm theo từ hoặc nghĩa<input id="lookup" type="search"></label></div><div class="toolsRow"><button id="reviseWords" class="primary">Ôn từ đang lọc</button><small id="lexStats"></small></div><div id="lexResults"></div><div id="pages" class="actionRow"></div><small>Từ nền tảng phân mức theo CEFR-J. Cụm từ theo chủ đề có mức học do Lingo Studio đề xuất. <a href="word-source/README.md" target="_blank" rel="noopener">Nguồn dữ liệu và giấy phép</a></small>';
+    '</select></label><label class="field">Tìm theo từ hoặc nghĩa<input id="lookup" type="search"></label></div><div class="toolsRow"><button id="reviseWords" class="primary">Ôn từ đang lọc</button><small id="lexStats"></small></div><div id="lexResults"></div><div id="pages" class="actionRow"></div><small>Từ nền tảng phân mức theo CEFR-J. Cụm từ theo chủ đề có mức học do TN đề xuất. <a href="word-source/README.md" target="_blank" rel="noopener">Nguồn dữ liệu và giấy phép</a></small>';
   $("#backLex").onclick = openWordPacks;
   const intro = document.createElement("div");
   intro.innerHTML =

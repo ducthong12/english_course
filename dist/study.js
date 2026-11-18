@@ -60,7 +60,7 @@ function studyShell(title) {
   if (!modal.open) modal.showModal();
   current = "study";
   $("#modalTitle").textContent = title;
-  $("#modalLabel").textContent = "LINGO STUDIO / " + labels[level];
+  $("#modalLabel").textContent = "TN / " + labels[level];
   content.replaceChildren();
   modal.scrollTop = 0;
 }
@@ -648,7 +648,7 @@ function showGrammarBook() {
   studyShell("Giải thích ngữ pháp tiếng Anh");
   const topics = window.grammarBank.filter((t) => t.source);
   content.innerHTML =
-    '<p>Mai Lan Hương · Hà Thanh Uyên · tái bản 2015. Bài luyện chuyển soạn theo các chủ điểm của sách. Mức học do Lingo Studio đề xuất.</p><label class="field">Chương<select id="bookChapter"><option value="">Tất cả 9 chương</option>' +
+    '<p>Mai Lan Hương · Hà Thanh Uyên · tái bản 2015. Bài luyện chuyển soạn theo các chủ điểm của sách. Mức học do TN đề xuất.</p><label class="field">Chương<select id="bookChapter"><option value="">Tất cả 9 chương</option>' +
     [...new Set(topics.map((t) => t.source.chapter))]
       .map((n) => "<option>" + n + "</option>")
       .join("") +

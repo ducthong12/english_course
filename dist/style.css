@@ -56,21 +56,22 @@ main {
   display: flex;
   align-items: center;
 }
-.brand > span:last-child {
-  font-weight: 450;
+.brand {
+  gap: 10px;
+  letter-spacing: -0.7px;
 }
-.mark {
-  display: grid;
-  place-items: center;
-  background: #164838;
-  color: #c9ed92;
+.brandLogo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  padding: 3px;
+  background: #143e35;
   border-radius: 12px;
-  width: 39px;
-  height: 39px;
-  margin-right: 9px;
-  font: 850 25px Georgia;
-  letter-spacing: -3px;
-  padding-right: 3px;
+  display: block;
+}
+.brand strong {
+  font-size: 26px;
+  font-weight: 800;
 }
 .avatar {
   margin-left: auto;

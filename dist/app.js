@@ -227,7 +227,7 @@ function view(key, lesson) {
   const id = lesson?.id || key;
   const dictKey = unit ? "dict-" + unit.number : "dictation";
   const c = unit ? unitCourse(base, unit) : base;
-  $("#modalLabel").textContent = "LINGO STUDIO  /  " + labels[level];
+  $("#modalLabel").textContent = "TN  /  " + labels[level];
   $("#modalTitle").textContent =
     skillName(key) ||
     { library: "Thư viện bài học", tutor: "Trò chuyện cùng AI" }[key];

@@ -1,4 +1,4 @@
-# Lingo Studio
+# TN
 
 Giao diện học, trang quản trị, API tài khoản, cơ sở dữ liệu và cầu nối AI CLI nằm trong cùng workspace.
 
@@ -11,7 +11,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Mở [Lingo Studio](http://127.0.0.1:8765). Cũng có thể nhấp đúp `Start.cmd` trên Windows để mở trang trong trình duyệt. Dừng máy chủ bằng Ctrl+C.
+Mở [TN](http://127.0.0.1:8765). Cũng có thể nhấp đúp `Start.cmd` trên Windows để mở trang trong trình duyệt. Dừng máy chủ bằng Ctrl+C.
 
 ## Cấp quyền quản trị
 
@@ -72,16 +72,16 @@ Minh họa thẻ từ sử dụng Microsoft Fluent Emoji qua bản WebP LobeHub.
 
 ## Ngữ pháp theo sách và luyện nghe từng câu
 
-Mục Ngữ pháp có nút "Học theo sách Giải thích ngữ pháp". Bản chuyển soạn gồm 37 chủ điểm, 74 câu mới trong chín chương, dựa trên mục lục và các trang lý thuyết đã kiểm tra của sách Mai Lan Hương – Hà Thanh Uyên, tái bản 2015. Mỗi bài ghi trang in và trang PDF. Mức A1–B2 do Lingo Studio đề xuất. Đây là phần chuyển soạn các chủ điểm, chưa số hóa toàn bộ bài tập hoặc đáp án của sách.
+Mục Ngữ pháp có nút "Học theo sách Giải thích ngữ pháp". Bản chuyển soạn gồm 37 chủ điểm, 74 câu mới trong chín chương, dựa trên mục lục và các trang lý thuyết đã kiểm tra của sách Mai Lan Hương – Hà Thanh Uyên, tái bản 2015. Mỗi bài ghi trang in và trang PDF. Mức A1–B2 do TN đề xuất. Đây là phần chuyển soạn các chủ điểm, chưa số hóa toàn bộ bài tập hoặc đáp án của sách.
 
 Tham khảo luồng nghe chép và shadowing của [Parroto](https://parroto.app/vi), hội thoại hiện có chỉnh tốc độ 0,75×–1,25×, lặp một câu, ẩn lời thoại và nghe chép từng lượt. Bản nháp được lưu theo từng tài khoản và bài. Phần đối chiếu đo mức khớp từ bằng thuật toán hiện tại. Học liệu âm thanh vẫn là các bản thu đi kèm dự án.
 
 
 ## Khảo sát Parroto và bản mở rộng thư viện
 
-Đã khảo sát các mục công khai về từ vựng, nghe–nói, truyện, podcast và trò chơi của Parroto ngày 18/11/2026. Nội dung từ vựng và bài đọc mới của Lingo Studio được biên soạn cho dự án.
+Đã khảo sát các mục công khai về từ vựng, nghe–nói, truyện, podcast và trò chơi của Parroto ngày 18/11/2026. Nội dung từ vựng và bài đọc mới của TN được biên soạn cho dự án.
 
-| Nội dung khảo sát | Chức năng trong Lingo Studio |
+| Nội dung khảo sát | Chức năng trong TN |
 | --- | --- |
 | Bộ thẻ theo chủ đề và trình độ | 25 bộ với 375 mục theo chủ đề. Tổng kho 4.226 đầu mục riêng biệt, gồm từ và cụm từ. Nhãn mức của các bộ biên tập là gợi ý học tập. |
 | Lật thẻ và ôn tập | Lật thẻ, phát âm bằng giọng đọc của trình duyệt và ôn nghĩa. |

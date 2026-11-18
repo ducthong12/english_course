@@ -1,4 +1,4 @@
-# Nguồn từ vựng Anh–Việt của Lingo Studio
+# Nguồn từ vựng Anh–Việt của TN
 
 `lexicon.js` chứa 3.895 từ đầu mục khác nhau. Mỗi dòng lần lượt cho biết từ tiếng Anh, một nghĩa tiếng Việt ngắn, mức học đề xuất, một cách phát âm Anh-Mỹ và từ loại.
 
@@ -11,7 +11,7 @@
 
 ## Từ tiếng Anh và mức học
 
-The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies. © Tono Laboratory, Tokyo University of Foreign Studies. Bản dữ liệu gốc được Open Language Profiles ghi nhận lấy từ CEFR-J ngày 20/01/2020. Nhóm biên soạn cho phép sử dụng miễn phí cho nghiên cứu và thương mại với điều kiện ghi nguồn. Lingo Studio sử dụng trường từ đầu mục, từ loại và mức A1–B2. [Bản dữ liệu đã sử dụng](https://github.com/openlanguageprofiles/olp-en-cefrj/blob/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/cefrj-vocabulary-profile-1.5.csv) · [Điều khoản sử dụng và trích dẫn gốc](CEFR-J-terms.md)
+The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies. © Tono Laboratory, Tokyo University of Foreign Studies. Bản dữ liệu gốc được Open Language Profiles ghi nhận lấy từ CEFR-J ngày 20/01/2020. Nhóm biên soạn cho phép sử dụng miễn phí cho nghiên cứu và thương mại với điều kiện ghi nguồn. TN sử dụng trường từ đầu mục, từ loại và mức A1–B2. [Bản dữ liệu đã sử dụng](https://github.com/openlanguageprofiles/olp-en-cefrj/blob/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/cefrj-vocabulary-profile-1.5.csv) · [Điều khoản sử dụng và trích dẫn gốc](CEFR-J-terms.md)
 
 ## Nghĩa tiếng Việt
 
@@ -32,4 +32,4 @@ Ký hiệu `noun`, `verb`, `adj`, `adv`, `prep`, `conj`, `pron`, `det`, `num` v�
 
 ## Bộ từ biên tập bổ sung
 
-word-packs.js có 25 bộ với 375 mục từ/cụm từ được biên soạn cho Lingo Studio. Trong đó 331 mục khác với kho 3.895 đầu mục ban đầu, nâng tổng lên 4.226. Các bộ theo chủ đề tham khảo cách tổ chức học của Parroto. Mức A1–B2 cho phần bổ sung là gợi ý biên tập. Nghĩa Việt và câu ví dụ theo chủ đề được viết cho dự án. Phát âm phần này dùng giọng đọc của trình duyệt, các mục bổ sung chưa có IPA riêng.
+word-packs.js có 25 bộ với 375 mục từ/cụm từ được biên soạn cho TN. Trong đó 331 mục khác với kho 3.895 đầu mục ban đầu, nâng tổng lên 4.226. Các bộ theo chủ đề tham khảo cách tổ chức học của Parroto. Mức A1–B2 cho phần bổ sung là gợi ý biên tập. Nghĩa Việt và câu ví dụ theo chủ đề được viết cho dự án. Phát âm phần này dùng giọng đọc của trình duyệt, các mục bổ sung chưa có IPA riêng.

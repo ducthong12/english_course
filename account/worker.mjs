@@ -396,7 +396,7 @@ export default {
         return await handleAccount(request, env.DB);
       if (path === "/api/chat")
         return response(
-          { error: "Chạy Lingo Studio trên máy có AI CLI để trò chuyện." },
+          { error: "Chạy TN trên máy có AI CLI để trò chuyện." },
           503,
         );
       return await env.ASSETS.fetch(request);
