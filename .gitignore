@@ -5,3 +5,11 @@ __pycache__/
 *.sqlite-wal
 dist/client/
 dist/server/
+
+.env
+.env.*
+!.env.example
+.tunnel-token
+*.tunnel-token
+docs/deploy/wrangler.local.jsonc
+backups/

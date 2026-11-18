@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#f7f8f2" />
-    <title>TN · Góc học tập</title>
-    <link rel="icon" type="image/png" href="art/tn-logo.png" />
+    <title>TN English AI · Góc học tập</title>
+    <link rel="icon" type="image/png" href="art/tn-english-ai-mic.png" />
     <link rel="stylesheet" href="style.css" />
     <script defer src="course.js"></script>
     <link rel="stylesheet" href="account.css" />
@@ -37,20 +37,23 @@
     <script defer src="reading.js"></script>
     <script defer src="library-page.js"></script>
     <script defer src="accounts.js"></script>
+    <script defer src="course-picker.js"></script>
     <script defer src="app.js"></script>
     <script defer src="adaptive.js"></script>
   </head>
   <body>
     <header>
       <div class="bar">
-        <a class="brand" href="#home" aria-label="TN"
+        <a class="brand" href="#home" aria-label="TN English AI"
           ><img
             class="brandLogo"
-            src="art/tn-logo.png"
+            src="art/tn-english-ai-mic.png"
             alt=""
             width="46"
             height="46"
-          /><strong>TN</strong></a
+          /><span class="brandWords"
+            ><strong>TN</strong><span>English <b>AI</b></span></span
+          ></a
         >
         <nav aria-label="Điều hướng">
           <a href="#home" data-nav="home">Góc học tập</a
@@ -120,11 +123,16 @@
           </section>
           <section class="tutorCard">
             <div class="tutorTop">
-              <span class="bot" aria-hidden="true">✳</span
-              ><span class="eyebrow">AI SPEAKING</span>
+              <img
+                class="tutorMascot"
+                src="art/tn-english-ai-mic.png"
+                alt=""
+              /><span class="eyebrow">AI SPEAKING</span>
             </div>
-            <h2>Trò chuyện cùng AI</h2>
-            <p>Luyện phản xạ qua hội thoại theo trình độ của bạn.</p>
+            <h2>Can u speak English?</h2>
+            <p>
+              Trò chuyện cùng gia sư AI và luyện phản xạ theo trình độ của bạn.
+            </p>
             <button data-open="tutor" class="light">
               Vào phòng nói <i data-icon="arrow"></i>
             </button>

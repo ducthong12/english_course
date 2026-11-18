@@ -1,0 +1,4 @@
+networks:
+  edge:
+    external: true
+    name: zalo_bot_default

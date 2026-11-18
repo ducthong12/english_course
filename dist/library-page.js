@@ -74,6 +74,7 @@ function showLibraryPage() {
       .join("") +
     '</div><section id="libraryResults" class="lessonList" hidden></section>';
   $("#libraryCourse").value = level;
+  enhanceCoursePicker($("#libraryCourse"));
   $("#libraryCourse").onchange = async () => {
     await choose($("#libraryCourse").value);
     showLibraryPage();

@@ -47,6 +47,7 @@ levelSelect.innerHTML = Object.keys(courses)
   .map((key) => '<option value="' + key + '">' + labels[key] + "</option>")
   .join("");
 levelSelect.value = level;
+enhanceCoursePicker(levelSelect);
 const oral = () => Boolean(courses[level].oral);
 function skillName(key) {
   return oral()

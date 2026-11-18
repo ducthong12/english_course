@@ -106,3 +106,10 @@ Sổ tay, lịch ôn và bài yêu thích dùng API tiến độ hiện có, lư
 
 
 Trang thư viện có đường dẫn #library, giao diện riêng theo desktop/mobile, tìm đồng thời từ vựng và bài của lộ trình đang chọn. Đóng bài học sẽ trở về thư viện. Bộ source được quản lý tại https://github.com/ducthong12/english_course.
+
+## Hướng dẫn triển khai
+
+Xem [docs/DEPLOY.md](docs/DEPLOY.md) để triển khai với domain english.ducthong.online, Docker gateway và Cloudflare Tunnel, cấp admin, sao lưu và cập nhật. Cấu hình mẫu ở docs/deploy. Tài liệu cũng mô tả Worker/D1 và phạm vi hoạt động của Gia sư AI theo từng môi trường.
+
+
+Web trên máy công ty được truy cập qua https://english.ducthong.online. Máy Windows, ứng dụng và Docker gateway/tunnel cần đang chạy để phục vụ địa chỉ này. Logo mới là TN English AI với nhân vật AI cầm micro. Bản đầy đủ có lời thoại “Can u speak English?”, bản gọn dùng cho header và favicon.

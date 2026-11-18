@@ -1,0 +1,15 @@
+services:
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --protocol http2 run --token-file /run/secrets/tunnel_token
+    secrets:
+      - tunnel_token
+    networks:
+      - edge
+secrets:
+  tunnel_token:
+    file: .tunnel-token
+networks:
+  edge:
+    name: edge
